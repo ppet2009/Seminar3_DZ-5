@@ -54,7 +54,7 @@ Console.WriteLine($"В этом массиве содержится {result} ч�
 
 //[-4, -6, 89, 6] -> 0
 */
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] myArray = new int[size];
@@ -92,13 +92,14 @@ int max = Convert.ToInt32(Console.ReadLine());
 int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(myArray);
 ElementsCount(myArray);
+*/
 
+/*Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+[3 7 22 2 78] -> 76
 
-//[3 7 22 2 78] -> 76
+*/
 
-/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] myArray = new int[size];
@@ -146,4 +147,3 @@ int max = Convert.ToInt32(Console.ReadLine());
 int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(myArray);
 ElementsCount(myArray);
-*/
