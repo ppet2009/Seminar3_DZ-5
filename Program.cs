@@ -5,7 +5,7 @@
 [345, 897, 568, 234] -> 2
 
 */
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] myArray = new int[size];
@@ -45,15 +45,16 @@ int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(myArray);
 int result = ElementsCount(myArray);
 Console.WriteLine($"В этом массиве содержится {result} четных элементов");
+*/
 
+/*Задайте одномерный массив, заполненный случайными числами.
+/* Найдите сумму элементов, стоящих на нечётных позициях.
 
-//Задайте одномерный массив, заполненный случайными числами.
-// Найдите сумму элементов, стоящих на нечётных позициях.
-
-//[3, 7, 23, 12] -> 19
+[3, 7, 23, 12] -> 19
 
 //[-4, -6, 89, 6] -> 0
-/*
+*/
+
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] myArray = new int[size];
@@ -91,7 +92,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(myArray);
 ElementsCount(myArray);
-*/
+
 
 //Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
