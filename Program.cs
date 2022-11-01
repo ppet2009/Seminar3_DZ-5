@@ -100,6 +100,8 @@ ElementsCount(myArray);
 
 */
 
+/*
+
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] myArray = new int[size];
@@ -147,3 +149,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 int [] myArray = CreateRandomArray(a, min, max);
 ShowArray(myArray);
 ElementsCount(myArray);
+*/
